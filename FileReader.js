@@ -16,7 +16,7 @@ function display()
  		currCell.id=champions[x];
 	}
 	document.body.appendChild(table)
-}
+} 
 function guess()
 {
 	var input = document.getElementById("input").value.toLowerCase();
@@ -26,7 +26,7 @@ function guess()
 		var name = champions[x];
 		if(champions[x] != undefined && (input == champions[x] || input == champions[x].toLowerCase()))
 		{
-			console.log("at index " + x + "resides champion: " + champions[x])
+			console.log("at index " + x + "resides champion: " + champions[x])	
 			score++;
 			document.getElementById(champions[x]).innerHTML = (x+1) + ". " + champions[x];
 			clear();
@@ -49,3 +49,4 @@ function reset()
 	var tab2 = document.getElementById("lol");
 	tab2.parentNode.removeChild(tab2)
 }
+
