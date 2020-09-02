@@ -1,0 +1,79 @@
+#Header {
+  padding: 30px;
+  text-align: center;
+  background: orange;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+#Timer{
+	width: 75%;
+	padding: 30px;
+	border: solid;
+	border-color: grey;
+	font-size: 60px;
+	text-align: center;
+}
+#Score{
+	float:right;
+  width:20%;
+  padding: 46px 60px;
+  border: solid grey;
+  text-align: center;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+#inputBlock{
+	float: left;
+	border: dashed;
+  padding: 30px;
+  text-align: center;
+  background: white;
+  color: black;
+  width: 95.75%;
+  font-size: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.start{
+  display: block;
+  width: 50%;
+  color: white;
+  border: none;
+  background-color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  float:left;
+  transition-duration: 0.4s;
+}
+.start:hover {
+  background-color: #ddd;
+  color: black;
+}
+.reset{
+  float:left;
+  display: block;
+  width: 50%;
+  color:white;
+  border: none;
+  background-color: red;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+.reset:hover {
+  background-color: #ddd;
+  color: black;
+}
+table, tr, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr, th, td{
+	padding:20px;
+}
