@@ -18,7 +18,7 @@ var button = null;
 	function createStartbutton()
 	{
 		button.innerHTML = "Start!"
-		button.onclick = resetStart;
+		button.onclick = resetStart;	
 	}
 	function resetStart()
 	{
@@ -52,7 +52,7 @@ var button = null;
 		}
 		else
 		{
-			getTime()
+			getTime()			
 			seconds = seconds - 1;
 		}
 	}
